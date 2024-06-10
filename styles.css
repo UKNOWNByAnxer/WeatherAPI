@@ -7,7 +7,7 @@ body{
 }
 
 .card {
-    margin: 10% 12%;
+    margin: 10% 5%;
     width: 350px;
     height: 235px;
     position: relative;
@@ -433,4 +433,15 @@ table {
     margin: auto;
     box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
     margin-top: 30px;
+}
+
+/*Historial*/
+.history-div{
+    width: 300px;
+    position: relative;
+}
+
+.history{
+    color: #fff;
+    margin-bottom: 0;
 }
