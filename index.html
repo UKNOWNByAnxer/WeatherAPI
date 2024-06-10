@@ -28,7 +28,7 @@
         <span class="temp" id="temperature"></span>
         <span class="humidity" id="humidity"></span>
         <div class="temp-scale">
-            <select id="scaleSelect" onchange="changeTemperatureScale()">
+            <select id="scaleSelect">
                 <option value="celsius">Celsius</option>
                 <option value="fahrenheit">Fahrenheit</option>
                 <option value="kelvin">Kelvin</option>
@@ -170,13 +170,18 @@
                 <th>Grados °C</th>
                 <th>Grados °F</th>
                 <th>Grados K</th>
-                <th>Grados °R</th>
+                <th>Grados R</th>
             </tr>
         </tbody>
         <tr><td>San Juan Del Río, Queretaro</td><td>México</td><td class="celsiusv1">0</td><td class="fahrenheitv1">0</td><td class="kelvinv1">0</td><td class="rankinev1">0</td></tr>
         <tr><td class="lugar2">???</td><td class="countryv2">???</td><td class="celsiusv2">0</td><td class="fahrenheitv2">0</td><td class="kelvinv2">0</td><td class="rankinev2">0</td></tr>
         <tr id="averageRow"><td colspan="5">Diferencia °C</td><td colspan="2" id="averageFinalGrade">0.00 °C</td></tr>
     </table>
+    <div class="history-div">
+        <h3 class="history">Historial</h3>        
+        <div id="history" class="history">
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
